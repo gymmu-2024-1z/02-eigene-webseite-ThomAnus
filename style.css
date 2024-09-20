@@ -1,4 +1,11 @@
 *,
+body {
+    background-color: rgba(32, 31, 31, 0.801);
+}
+body {
+    -webkit-text-fill-color: whitesmoke;
+    text-align: center;
+}
 *::before,
 *::after {
     box-sizing: border-box;
@@ -29,4 +36,12 @@ body {
 .text-and-img img {
     border-radius: 2rem; /* Damit können die Ecken abgerundet werden. */
     width: 100%; /* Braucht es damit das Bild im Container bleibt und nicht viel zu gross ist. */
+}
+
+.img-center {
+    text-align: center;
+}
+
+.img-center > img {
+    width: 70%;
 }
