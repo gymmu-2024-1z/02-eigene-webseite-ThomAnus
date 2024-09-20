@@ -1,6 +1,10 @@
 *,
 body {
-    background-color: rgba(66, 64, 64, 0.687);
+    background-color: rgba(41, 40, 40, 0.687);
+}
+body {
+    -webkit-text-fill-color: whitesmoke;
+    text-align: center;
 }
 *::before,
 *::after {
